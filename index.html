@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disney movies</title>
+
+<!--GOOGLE FONT-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!--MAIN CSS-->
+<link rel="stylesheet" href="styles.css">
+
+<!--BOOTSTRAP-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--W3SCHOOL-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+
+<!--HEADER-->
+<header>
+<nav>
+<ul>
+<li><a href="#Home"> Trang chủ </a></li>
+<li><a href="#values"> Giá trị </a></li>
+<li><a href="#movies"> Xem phim </a></li>
+<li><a href="#contact"> Phản hồi </a></li>
+<li class="nav__more">
+<a href="#"> Thêm </a>
+<i class="fa fa-chevron-down" aria-hidden="true"></i>
+<div class="nav__item">
+<a href="#"> Walt Disney </a>
+<a href="#"> Disneyland</a>
+<a href="#"> Disney+ </a>
+</div>
+</li>
+</ul>
+</nav>
+</header>
+
+<!--HOME-->
+<section id="Home">
+<h1> Disney - Giá trị vượt thời đại </h1>
+<div class="text">
+<h2>Giới thiệu</h2>
+<p>Disney là hãng phim hoạt hình nổi tiếng trên toàn thế giới với hàng loạt tác phẩm kinh điển như
+<strong>Frozen</strong>, <strong>The Lion King</strong>, <strong>Moana</strong> và nhiều bộ phim khác.
+Những bộ phim Disney không chỉ mang tính giải trí mà còn truyền tải nhiều bài học giá trị.</p>
+</div>
+</section>
+
+<section id="values">
+<h2>Giá trị nổi bật</h2>
+<div class="value-box">
+<h3>🎨 Sáng tạo & Hình ảnh tuyệt đẹp</h3>
+<p>Disney mang đến thế giới hình ảnh sống động, màu sắc rực rỡ và phong cách nghệ thuật độc đáo.</p>
+</div>
+
+<div class="value-box">
+<h3>💖 Giá trị nhân văn</h3>
+<p>Các bộ phim thường đề cao tình yêu thương, gia đình, lòng dũng cảm và sự tử tế.</p>
+</div>
+
+<div class="value-box">
+<h3>🌍 Ý nghĩa văn hóa</h3>
+<p>Disney tôn vinh nhiều nền văn hóa khác nhau qua các câu chuyện đầy cảm hứng.</p>
+</div>
+</section>
+
+<!--CAROUSEL-->
+<section id="Carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+</ol>
+
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img class="d-block w-100" src="./img/Ariel.jpg" alt="First slide">
+<div class="carousel-caption d-none d-md-block">
+<h5> The little mermaid </h5>
+<p> Ngợi ca sự tự do và vượt lên chính giới hạn của mình </p>
+</div>
+
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="./img/Bambi.jpg" alt="Second slide">
+<div class="carousel-caption d-none d-md-block">
+<h5> Chú nai Bambi </h5>
+<p> Lên án hiện trạng săn bắn động vật và phá hoại môi trường của con người </p>
+</div>
+</div>
+
+<div class="carousel-item">
+<img class="d-block w-100" src="./img/Belle.jpg" alt="Third slide">
+<div class="carousel-caption d-none d-md-block">
+<h5> Beauty and The Beast </h5>
+<p> Giá trị của vẻ đẹp trong tâm hồn và lòng dũng cảm </p>
+</div>
+</div>
+
+</div>
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</section>
+
+<!--MOVIES-->
+<section class="banner">
+<h2>Những bộ phim hoạt hình làm say mê mọi thế hệ</h2>
+</section>
+
+<section id="movies" class="movies">
+<h2>Phim nổi bật</h2>
+<div class="movie-list">
+
+<div class="movie-card">
+<img src="./img/LK.jpg" alt="Lion King">
+<h3>The Lion King</h3>
+<p>Câu chuyện về Simba – hành trình trưởng thành và tìm lại vị trí xứng đáng.</p>
+<a class="button" href="https://www.rophim.li/xem-phim/vua-su-tu.nzrasUt2?ver=1" target="_blank"> <i class="fa fa-play" aria-hidden="true"></i> Click để xem phim </a>
+</div>
+
+<div class="movie-card">
+<img src="./img/Frozen.jpg" alt="Frozen">
+<h3>Frozen</h3>
+<p>Cuộc phiêu lưu kỳ diệu của hai chị em Elsa và Anna trong vương quốc Arendelle.</p>
+<a class="button" href="https://www.rophim.li/xem-phim/nu-hoang-bang-gia.ocNnQfYS?ver=1" target="_blank"> <i class="fa fa-play" aria-hidden="true"></i> Click để xem phim </a>
+</div>
+
+<div class="movie-card">
+<img src="./img/Moana.jpg" alt="Moana">
+<h3>Moana</h3>
+<p>Moana dũng cảm lên đường vượt biển để giải cứu hòn đảo của mình.</p>
+<a class="button" href="https://www.rophim.li/xem-phim/hanh-trinh-cua-moana.KVQ7W7dW?ver=1" target="_blank"> <i class="fa fa-play" aria-hidden="true"></i> Click để xem phim </a>
+</div>
+
+</div>
+</section>
+
+<!--CONTACT-->
+<section class="banner">
+<h2> Bạn có thích trang web này không? Hãy để lại lời nhắn </h2>
+</section>
+
+<div id="contact" class="w3-container w3-center w3-padding-32">
+<h2 class="w3-wide"> Phản hồi </h2>
+Ho Chi Minh city, VN<br>
+Phone: +00 151515<br>
+Email: disney@mail.com<br>
+<p class="w3-opacity w3-center"><i>Disney fan? Drop a note!</i></p>
+<form action="/action_page.php" target="_blank">
+<input class="w3-input" type="text" placeholder="Name" required name="Name">
+<input class="w3-input" type="text" placeholder="Email" required name="Email">
+<input class="w3-input" type="text" placeholder="Message" required name="Message"><br>
+<button class="w3-button w3-black" type="submit">SEND</button>
+</form>
+</div>
+
+
+<!--FOOTER-->
+<footer>
+<footer>
+<div class="footer_icon">
+<a href="https://www.facebook.com/nghi.phuong.864834/?locale=vi_VN" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+<i class="fa fa-instagram" aria-hidden="true"></i>
+<i class="fa fa-twitter" aria-hidden="true"></i>
+</div>
+<p>Made by <a href="a">Nguyễn Thúy Nhã Uyên, Lâm Phuong Nghi</a></p>
+</footer>
+</footer>
+
+<!--JS-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
